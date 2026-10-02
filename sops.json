@@ -1,0 +1,72 @@
+[
+  {
+    "id": "SOP_1",
+    "category": "outdoor exercise",
+    "severity": "high",
+    "condition": "Temperature > 35C and user asks about strenuous outdoor exercise such as running, cycling or workouts",
+    "advice": "Advise against strenuous outdoor exercise due to heat risk. Recommend indoor alternatives or rescheduling to cooler hours."
+  },
+  {
+    "id": "SOP_2",
+    "category": "outdoor exercise",
+    "severity": "medium",
+    "condition": "UV index >= 8 and user asks about outdoor exercise or activities during 10am to 4pm",
+    "advice": "Advise against unprotected outdoor activity during this period. Recommend rescheduling to early morning or evening, and using sunscreen, protective clothing and shade if going outside."
+  },
+  {
+    "id": "SOP_3",
+    "category": "outdoor exercise",
+    "severity": "high",
+    "condition": "Wind speed > 40 km/h and user mentions cycling or riding a two-wheeler",
+    "advice": "Warn that strong winds can make cycling and two-wheeler travel hazardous. Recommend postponing the activity or using alternative transport."
+  },
+  {
+    "id": "SOP_4",
+    "category": "outdoor exercise",
+    "severity": "low",
+    "condition": "User asks about outdoor exercise and no higher-severity applicable SOP is triggered, with temperature between 15C and 30C, wind speed <= 20 km/h, precipitation probability < 30%, and UV index < 6",
+    "advice": "Weather conditions appear suitable for outdoor exercise based on the available data. Encourage the user to stay hydrated and remain alert to changing conditions."
+  },
+  {
+    "id": "SOP_5",
+    "category": "severe weather",
+    "severity": "critical",
+    "condition": "An active official severe weather alert for the user's location indicates heavy to very heavy rainfall, a severe storm or dangerous winds, or available weather data meets configured extreme thresholds such as rainfall > 20 mm or wind speed > 50 km/h",
+    "advice": "Lead with the severe weather warning and advise postponing non-essential outdoor activities. Explain the relevant observed weather measurements or official alert, and recommend checking official local alerts before travelling. Include activity-specific advice where applicable."
+  },
+  {
+    "id": "SOP_6",
+    "category": "travel",
+    "severity": "medium",
+    "condition": "User asks about travel or commuting and precipitation probability >= 30% and < 70%, or precipitation > 0 mm and <= 5 mm, with no applicable higher-severity SOP",
+    "advice": "Mention the possibility of rain and travel delays. Recommend carrying an umbrella or raincoat and checking local conditions before departure."
+  },
+  {
+    "id": "SOP_7",
+    "category": "travel",
+    "severity": "high",
+    "condition": "User asks about travel or commuting and precipitation probability >= 70%, or precipitation > 5 mm, or wind speed > 40 km/h, with no applicable critical severe weather SOP",
+    "advice": "Warn about potential travel disruption, reduced visibility, waterlogging or unsafe conditions, as relevant to the available weather data. Recommend checking official local alerts and considering postponing non-essential travel."
+  },
+  {
+    "id": "SOP_8",
+    "category": "vulnerable groups",
+    "severity": "high",
+    "condition": "Temperature < 5C and user asks about outdoor activities involving elderly people or children",
+    "advice": "Warn about cold exposure. Recommend limiting prolonged outdoor exposure and wearing adequate warm clothing. Suggest keeping vulnerable individuals indoors during particularly cold conditions."
+  },
+  {
+    "id": "SOP_9",
+    "category": "vulnerable groups",
+    "severity": "high",
+    "condition": "Temperature > 30C and user asks about taking pets outdoors",
+    "advice": "Warn about heat exposure and hot pavement, which may injure pets' paws. Recommend walking pets during cooler hours, avoiding hot surfaces and providing access to water and shade."
+  },
+  {
+    "id": "SOP_10",
+    "category": "general outdoor activities",
+    "severity": "low",
+    "condition": "User asks whether the weather is suitable for a picnic, park visit or pleasant day outdoors, and no higher-severity applicable SOP is triggered, with temperature between 15C and 30C, precipitation probability < 30%, wind speed <= 20 km/h and UV index < 6",
+    "advice": "Based on the available weather data, conditions appear pleasant for the requested outdoor activity. Recommend remaining aware of changing weather conditions."
+  }
+]
