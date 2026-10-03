@@ -24,8 +24,8 @@
     "id": "SOP_4",
     "category": "outdoor exercise",
     "severity": "low",
-    "condition": "User asks about outdoor exercise and no higher-severity applicable SOP is triggered, with temperature between 15C and 30C, wind speed <= 20 km/h, precipitation probability < 30%, and UV index < 6",
-    "advice": "Weather conditions appear suitable for outdoor exercise based on the available data. Encourage the user to stay hydrated and remain alert to changing conditions."
+    "condition": "User asks about outdoor exercise and no higher-severity applicable SOP is triggered",
+    "advice": "Weather conditions appear generally suitable for outdoor exercise based on the available data, but be mindful of any moderate factors like warmth or UV. Encourage the user to stay hydrated and remain alert to changing conditions."
   },
   {
     "id": "SOP_5",
@@ -66,7 +66,7 @@
     "id": "SOP_10",
     "category": "general outdoor activities",
     "severity": "low",
-    "condition": "User asks whether the weather is suitable for a picnic, park visit or pleasant day outdoors, and no higher-severity applicable SOP is triggered, with temperature between 15C and 30C, precipitation probability < 30%, wind speed <= 20 km/h and UV index < 6",
-    "advice": "Based on the available weather data, conditions appear pleasant for the requested outdoor activity. Recommend remaining aware of changing weather conditions."
+    "condition": "User asks whether the weather is suitable for a picnic, park visit or pleasant day outdoors, and no higher-severity applicable SOP is triggered",
+    "advice": "Based on the available weather data, conditions appear generally acceptable for the requested outdoor activity. Recommend remaining aware of changing weather conditions."
   }
 ]
